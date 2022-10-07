@@ -1,0 +1,31 @@
+.photo-fram{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin: 7px;
+    border-radius: 10px;
+    border-color: chartreuse;
+}
+.photo-fram .photo img{
+   width: 100%;
+}
+.container{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.details{
+    position: absolute;
+    display: none;
+    top: 0px;
+}
+.photo-fram:hover .details{
+    display: block;
+    background-color: chartreuse;
+    text-decoration-color: cyan;
+}
+.photo-fram:hover .details h2{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
