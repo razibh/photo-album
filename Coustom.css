@@ -1,6 +1,6 @@
 .photo-fram{
     width: 300px;
-    height: 300px;
+    height: 200px;
     position: relative;
     margin: 7px;
     border-radius: 10px;
@@ -10,9 +10,12 @@
    width: 100%;
 }
 .container{
-    margin: auto;
+    margin-left: 60px;
     display: flex;
     flex-wrap: wrap;
+}
+#margin{
+    margin-left: 60px;
 }
 .details{
     position: absolute;
